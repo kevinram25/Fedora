@@ -1,1 +1,301 @@
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
+body {
+     font-family: Montserrat;
+    margin: 0;
+    color: black;
+    min-width:300px; 
+}
+
+div{
+    display: block;
+    margin: 0;
+}
+
+.contenedor{
+    margin-right: 25px;
+    margin-left: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+   
+}
+
+
+/*---------------------------------header---------------------------------*/
+.header{
+    height: 89px;
+}
+
+.logocont{
+    height: 50px;
+    padding: 19px;
+}
+
+
+/*--------------------------------(principal/secundario)------------------------------------*/
+.principal{
+    color: white;
+    background-color: #294172;
+
+    
+    padding-top: 90px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin-bottom: 0;
+   
+}
+
+#tam1{
+    font-size: 40px;
+ line-height: 45px;
+}
+
+#tam2{
+    font-size: 21px;
+     line-height: 20px;
+}
+
+#tam3{
+    font-size: 23px;
+}
+
+.secundario{
+    max-width: 100%;
+    color: white;
+    background-color: #a07cbc;;
+    text-align: center;
+
+    padding: 20px;
+    margin-bottom: 0;
+    
+}
+
+#descarga{
+    opacity: 1;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+/*---------------------------------------descargas-------------------------------------------*/
+#descargas{
+    text-align: center;
+    background-image: url(imagenes/desc-img.png);
+    padding-bottom: 50px;
+}
+
+
+#fundaciones{
+    text-align: center;
+    background-image: url(imagenes/desc-img.png);
+}
+
+
+#descargas .contenedor{
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.img-desc{
+    color: white;
+    padding: 20px;
+}
+
+#est .img-desc{
+     background-image: url(imagenes/verde.png);
+    /*background-repeat: no-repeat;*/
+    text-align: center;
+}
+
+#descargas .boton-desc{
+    background-color: #294172;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 40px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+
+#serv .img-desc{
+    background-image: url(imagenes/naranja.png);
+    text-align: center;
+    margin-top: 20px;
+}
+
+#atomic .img-desc{
+    background-image: url(imagenes/morado.png);
+    text-align: center;
+    margin-top: 20px;
+}
+
+#err{
+    color: black;
+    font-weight: 100;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 25px;
+}
+
+/*------------------------------------separador azul------------------------------*/
+.azul{
+    background: url(imagenes/azul.png) no-repeat right 0px center;
+    height: 70px;
+    background-size: cover;
+}
+
+/*-----------------------------------fundaciones---------------------------------------*/
+
+.fund-img{
+    height: 150px;
+    width: 150px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+   
+}
+.img {
+    max-width: 100%;
+  vertical-align: middle;
+    border: 0;
+}
+
+#thin{
+    font-weight: 300;
+    text-align: justify;
+       line-height: 1.5;
+        margin-top: 10px;
+    padding-bottom: 50px;
+        font-weight: 300;
+    padding-left: 50px;
+    padding-right: 50px;
+   
+}
+
+#thin2{
+    font-weight: 300;
+    text-align: justify;
+       line-height: 1.5;
+        margin-top: 10px;
+    padding-bottom: 50px;
+        font-weight: 300;
+
+   
+}
+
+/*-----------------------------------Mas Informacion------------------------------------*/
+
+.links{
+    cursor: pointer;
+    color: #428bca;
+    text-decoration: none;
+}
+
+.bold{
+    color: black;
+     cursor: pointer;
+    text-decoration: none;
+}
+
+#mas-info{
+    text-align: center;
+}
+
+#mas-info .cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#opc-img{
+        margin: 5px;
+        max-width: 100%;
+
+    border: 0;
+}
+
+#mgz-img{
+    border: 0;
+    height: 80px;
+    vertical-align: middle;
+    margin-bottom: 30px;
+}
+
+#ask-img{
+    border: 0;
+     height: 50px;
+    vertical-align: middle;
+    margin-bottom: 30px;
+}
+
+#h1-rec{
+    font-family: Montserrat;
+    font-size: 36px;
+    text-align: center;
+}
+
+/*----------------------------------footer-------------------------------*/
+
+footer{
+    background-color: #e6e6e6;
+    padding: 30px 0 0 0;
+    font-size: 13px;
+        color: #777;
+}
+
+td, tr{
+  text-align: left; 
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+th{
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0 0 20px;
+    color: dimgray;
+}
+
+.esp{
+    padding-right: 50px;
+}
+
+#red-img
+{
+    margin-right: 10px;
+    height: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.footer{
+        line-height: 15px;
+     margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#red{
+    margin-top: 50px;
+    
+}
+
+#negro{
+    color: black;
+    cursor: pointer;
+}
+
+/*
+@media only screen and (max-width: 300px){
+	body{
+		
+	}
+}*/
