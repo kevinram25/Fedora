@@ -42,13 +42,57 @@ img{
 
 
 /*---------------------------------header---------------------------------*/
-.header{
+header{
     padding: 20px 20px;
 }
 
 .logocont{
     height: 3.5em;
 
+}
+
+#menu-bar{
+    display: none;
+}
+
+header label{
+    float: right;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-top: 0;
+}
+
+.menu{
+    text-align: center;
+position: absolute;
+    width: 100%;
+    height: 29vh;
+    top: 105px;
+    left: 0;
+    background-color:gray;
+    transition: all .5s;
+    transform: translateX(100%);
+}
+
+#menu-bar:checked ~ .menu{
+    transform: translateX(0%);
+}
+ 
+#menuuu{
+    height: 50px;
+}
+
+.menu a{
+    display: block;
+    color: white;
+    height: 50px;
+    text-decoration: none;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+
+.menu a:hover{
+    background: rgba(255,255,255,0.3);;
 }
 
 
@@ -277,9 +321,14 @@ img{
 
 footer{
     background-color: #e6e6e6;
-    padding: 30px 0 0 0;
+    padding-top: 30px;
     font-size: 13px;
         color: #777;
+      line-height: 15px;
+     margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 td, tr{
@@ -289,6 +338,10 @@ td, tr{
     cursor: pointer;
 }
 
+table{
+ width: 100%;
+}
+
 th{
     font-family: sans-serif;
     font-size: 16px;
@@ -296,24 +349,13 @@ th{
     color: dimgray;
 }
 
-.esp{
-    padding-right: 50px;
-}
 
 #red-img
 {
     margin-right: 10px;
-    height: 30px;
+    height: 25px;
     margin-bottom: 30px;
-    
-}
 
-.footer{
-        line-height: 15px;
-     margin-right: 10px;
-    margin-left: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 #red{
