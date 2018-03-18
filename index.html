@@ -7,14 +7,26 @@
     <link rel="shortcut icon" href="imagenes/favicon.ico" sizes="16x16 32x32" type="image/vnd.microsoft.icon">
 </head>
 <body>
-    <div class="header">
+    <header>
+   
     <div class="contenedor">
-        <a href="index.html">
+        <a id="logo" href="index.html">
             <img class="logocont" src="imagenes/fedora_infinity_140x140.png">
         </a>
+        
+        <input type="checkbox" id="menu-bar">
+                       <label class="menu-bar" for="menu-bar">   <img id="menuuu" src="imagenes/icono-menu.png"> </label>
+                       <nav class="menu">
+                           <a href="index.html">Inicio</a>
+                           <a href="formulario.html">Registro</a>
+                           <a href="blog.html">Blog</a>
+                           <a href="galeria.html">Galería</a>
+                       </nav>
     </div>
-    </div>
-    
+        
+       
+
+    </header>
     <section class="principal">
         <div class="contenedor">
             <h1 id="tam1">Elija libertad. Elija Fedora.</h1>
@@ -168,9 +180,8 @@
             </div>
     </section>
     
-    <footer>
-       <div class="footer">
-            <div id="listas">
+  <footer>
+            <div class="contenedor">
                 
                 <div id="acerca-asist">
                  <table>
@@ -231,7 +242,7 @@
         <img id="red-img" src="imagenes/twitter.png">
             </a>
                 </div > 
-                    </div>
+                    
                 
                 
            <div id="desc-uni">
@@ -276,17 +287,18 @@
                     <img src="imagenes/redhat.png">
                 </a>
            </div>
-           
+           </div>
             
+                <div id="final">
            <h4>Fedora está patrocinado por Red Hat.</h4>
            <h4 id="negro">Conozca más sobre la relación entre Red Hat y Fedora »</h4>
            <h4>© 2017 Red Hat, Inc. y otros. Envíe cualquier comentario o corrección al <a id="negro">equipo de websites</a>.</h4>
            
            <img src="imagenes/icon-language.png" >Cambiar idioma
-         
+                </div>
+        
         </div>
-        </div>
-    </footer>
+   </footer>
   
 </body>
 </html>
